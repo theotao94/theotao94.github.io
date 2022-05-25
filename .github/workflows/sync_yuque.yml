@@ -26,11 +26,22 @@ jobs:
         node-version: [15.x]
 
     steps:
-      - shell: bash
-        env:
-          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-        run: |
-          example-command "$YUQUE_TOKEN"
+       - shell: bash
+       - name: Hello world action
+         with: # Set the secret as an input
+            YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+         env: # Or as an environment variable
+            YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+        
+         
+       - run: |
+            example-command "$YUQUE_TOKEN"    
+         
+#       with: # Set the secret as an input
+#           YUQUE_TOKEN: ${{ secrets.SuperSecret }}
+#         env:
+#           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+        
           
 #       - uses: actions/checkout@v3
 #       - name: Use Node.js ${{ matrix.node-version }} ${{ secrets.YUQUE_TOKEN }}
