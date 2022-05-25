@@ -35,10 +35,10 @@ jobs:
 #        - run: |
 #           echo "$YUQUE_TOKEN"    
         - shell: bash
-            env:
-              YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-            run: |
-              echo "$SUPER_SECRET"
+          env:
+           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          run: |
+           echo "$SUPER_SECRET"
          
 #       with: # Set the secret as an input
 #           YUQUE_TOKEN: ${{ secrets.SuperSecret }}
