@@ -29,7 +29,9 @@ jobs:
 #         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
     steps:
          - name: 'Checkout codes'
-           uses: actions/checkout@v1
+           uses: actions/checkout@v2
+           with:
+             persist-credentials: false
             
          - name: 'Setup Node'
            uses: actions/setup-node@v3
