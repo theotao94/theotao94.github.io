@@ -34,13 +34,16 @@ jobs:
          - name: 'Setup Node'
            uses: actions/setup-node@v3
            
+         - name: 'init project' 
+           run: |
+             npm install 
+             
          - name: 'Sync'
            env:
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-#          env: # Or as an environment variable
-#             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
            run: |
-             npm install && DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
+              DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
+ 
 
 #        - run: |
 #           echo "$YUQUE_TOKEN"    
