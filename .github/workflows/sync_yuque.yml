@@ -6,12 +6,10 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+  schedule:
+    - cron: '0 21 * * *'
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch:  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -48,6 +46,7 @@ jobs:
            run: |
               cd ./src
               npm install 
+              npm i -g yuque-hexo
               DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
  
 
