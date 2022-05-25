@@ -39,8 +39,10 @@ jobs:
 
           env:
            YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+           YUQUE_TOKEN1: ${{ ::env.secrets.YUQUE_TOKEN }}
+
           run: |
-           echo "$YUQUE_TOKEN"
+           echo "$YUQUE_TOKEN1"
          
 #       with: # Set the secret as an input
 #           YUQUE_TOKEN: ${{ secrets.SuperSecret }}
