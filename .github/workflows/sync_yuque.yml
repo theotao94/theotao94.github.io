@@ -26,14 +26,13 @@ jobs:
         node-version: [15.x]
 
     steps:
-       - shell: bash
-       - name: Hello world action
+       - name: 'Checkout codes'
+
          with: # Set the secret as an input
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
          env: # Or as an environment variable
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
         
-         
        - run: |
             example-command "$YUQUE_TOKEN"    
          
