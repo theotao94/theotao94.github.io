@@ -28,20 +28,23 @@ jobs:
 #     with: # Set the secret as an input
 #         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
     steps:
-        - name: 'Checkout codes'
+         - name: 'Checkout codes'
+           uses: actions/checkout@v1
+            
+         - name: 'Sync'
 #          env: # Or as an environment variable
 #             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-          uses: actions/setup-node@v3
+           uses: actions/setup-node@v3
 
 #        - run: |
 #           echo "$YUQUE_TOKEN"    
-        - shell: bash
+         - shell: bash
 
-          env:
-           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+           env:
+             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
 
-          run: |
-           npm install && DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
+           run: |
+             npm install && DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
 #       with: # Set the secret as an input
 #           YUQUE_TOKEN: ${{ secrets.SuperSecret }}
 #         env:
