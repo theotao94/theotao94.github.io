@@ -27,13 +27,14 @@ jobs:
 #     with: # Set the secret as an input
 #         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
     steps:
+       - shell: bash
        - name: 'Checkout codes'
          env: # Or as an environment variable
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
          uses: actions/setup-node@v3
 
        - run: |
-            example-command "$YUQUE_TOKEN"    
+            echo "$YUQUE_TOKEN"    
          
 #       with: # Set the secret as an input
 #           YUQUE_TOKEN: ${{ secrets.SuperSecret }}
