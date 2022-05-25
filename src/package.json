@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "hexo": "^6.2.0",
+    "yuque-hexo": "^1.9.1"
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -36,9 +37,5 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^4.2.2",
     "hexo-theme-landscape": "^0.0.3"
-  },
-  "devDependencies": {
-    "yuque-hexo": "^1.9.1"
   }
-
 }
