@@ -44,6 +44,7 @@ jobs:
               npm install 
               npm i -g yuque-hexo
               DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
+              cd ../
               git add .
               git commit -m "git action schedule sync"
               git push -u origin master
