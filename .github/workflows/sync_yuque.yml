@@ -30,8 +30,7 @@ jobs:
        - name: 'Checkout codes'
          env: # Or as an environment variable
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-       - uses: actions/checkout@v3
-       - uses: actions/setup-node@v3
+         uses: actions/setup-node@v3
 
        - run: |
             example-command "$YUQUE_TOKEN"    
