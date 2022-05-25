@@ -37,10 +37,10 @@ jobs:
            uses: actions/setup-node@v3
           
          - run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
-         - run: cd src/
 
          - name: 'init project' 
            run: |
+             cd ./src
              npm install 
              
          - name: 'Sync'
