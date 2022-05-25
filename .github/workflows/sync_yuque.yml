@@ -37,15 +37,17 @@ jobs:
            uses: actions/setup-node@v3
           
          - run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
-         
-         - name: 'init project' 
-           run: |
-             npm install 
+
+#          - name: 'init project' 
+#            run: |
+#              cd ./src
              
          - name: 'Sync'
            env:
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
            run: |
+              cd ./src
+              npm install 
               DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
  
 
