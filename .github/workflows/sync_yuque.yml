@@ -35,7 +35,9 @@ jobs:
          - run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
 
 
-             
+         - name: config git
+           run: git config --global user.email "17610906827@163.com"&&git config --global user.name "theo"
+
          - name: 'Sync Yuque'
            env:
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
