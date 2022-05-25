@@ -33,5 +33,6 @@ jobs:
          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
         with:
           node-version: ${{ matrix.node-version }}
-           
+      - run: |
+          echo $YUQUE_TOKEN
       - run: echo "$YUQUE_TOKEN"
