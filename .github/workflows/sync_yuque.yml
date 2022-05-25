@@ -29,10 +29,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }} ${{ secrets.YUQUE_TOKEN }}
         uses: actions/setup-node@v3
-        env:
-         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
         with:
           node-version: ${{ matrix.node-version }}
+        env:
+         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+  
       - run: |
           echo $YUQUE_TOKEN
       - run: echo "$YUQUE_TOKEN"
