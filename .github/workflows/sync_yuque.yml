@@ -47,6 +47,7 @@ jobs:
            env:
             YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
            run: |
+              cd ./src
               DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
  
 
