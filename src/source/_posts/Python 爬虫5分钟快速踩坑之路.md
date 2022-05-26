@@ -1,11 +1,16 @@
 ---
 title: Python 爬虫5分钟快速踩坑之路
-urlname: hwwlyf
-date: '2022-05-25 10:56:31 +0800'
-_背景：看到一篇python爬虫文章，想自己尝试一下，原本以为轻松的python之路却因为种种原因而变得不太快乐。_( os: "\U0001F62D \U0001F402 \U0001F40D \U0001F35C )"
-tags: []
-categories: []
+urlname: sa8fgx
+date: '2022-05-26 16:14:39 +0800'
+tags:
+  - python
+  - 入门
+categories:
+  - - python
+    - 入门
 ---
+
+_背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以为轻松的 python 之路却因为种种原因而变得不太快乐。_( os: 😭 🐂 🐍 🍜 )
 
 # Part 1: python 版本之坑
 
