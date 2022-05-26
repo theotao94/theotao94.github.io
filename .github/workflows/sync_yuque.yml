@@ -14,7 +14,7 @@ on:
 jobs:
 
   # This workflow contains a single job called "build"
-  build:
+  SyncYuque:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     environment: yuque_env
@@ -25,9 +25,9 @@ jobs:
 
     steps:
          - name: 'Checkout codes'
-           uses: actions/checkout@v2
+           uses: actions/checkout@v3
            with:
-             persist-credentials: false
+            token: ${{ secrets.COMMIT_TOKEN }}
             
          - name: 'Setup Node'
            uses: actions/setup-node@v3
@@ -46,8 +46,17 @@ jobs:
               npm install 
               npm i -g yuque-hexo
               DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN yuque-hexo sync
-              cd ../
-              git add .
-              git commit -m "git action schedule sync"
-              git push -u origin master
+              
+              if [ -n "$(git status -s)" ];then
+                  echo "检查到有变动文件，准备提交"
+                  npm run build
+                  cp -r public/* ../
+                  cd ../
+                  git add .
+                  git commit -m "git action schedule sync"
+                  git push -u origin master
+              fi
+            
+              
+              
 
