@@ -50,7 +50,7 @@ jobs:
               if [ -n "$(git status -s)" ];then
                   echo "检查到有变动文件，准备提交"
                   npm run build
-                  cp -r public/* ../
+                  cp -r public/* ../docs/
                   cd ../
                   git add .
                   git commit -m "git action schedule sync"
