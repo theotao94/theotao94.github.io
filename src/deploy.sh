@@ -7,6 +7,6 @@ npm run build
     cp -r public/* ../docs/
     cd ../
     git add .
-    git commit -m "git local push"
+    git commit -m "doc: git local push"
     git push -u origin master                            
 fi
