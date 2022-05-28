@@ -68,14 +68,14 @@
     "content_updated_at": "2022-05-26T15:26:07.000Z",
     "deleted_at": null,
     "created_at": "2022-05-26T07:44:19.000Z",
-    "updated_at": "2022-05-26T15:26:07.000Z",
+    "updated_at": "2022-05-28T06:27:59.000Z",
     "published_at": "2022-05-26T15:26:07.000Z",
     "first_published_at": "2022-05-26T07:46:23.090Z",
     "word_count": 35,
     "cover": null,
     "description": "tags: 工具GitActionHexocategories: [工具,hexo]GitAction如何使用定时发布安全的管理token语雀图床的处理hexo处理",
     "custom_description": null,
-    "hits": 0,
+    "hits": 3,
     "_serializer": "v2.doc_detail"
   },
   {
