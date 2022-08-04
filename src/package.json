@@ -45,8 +45,5 @@
     "hexo-theme-butterfly": "^4.2.2",
     "hexo-theme-landscape": "^0.0.3",
     "yuque-hexo": "^1.9.1"
-  },
-  "devDependencies": {
-    "yuque-hexo-with-cdn": "^1.2.2"
   }
 }

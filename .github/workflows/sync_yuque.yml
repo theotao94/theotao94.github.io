@@ -46,7 +46,6 @@ jobs:
           cd ./src
           npm install 
           npm i -g yuque-hexo
-          npm i -g yuque-hexo-with-cdn
           DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN SECRET_ID=$QINIU_SECRET_ID SECRET_KEY=$QINIU_SECRET_KEY && yuque-hexo sync
 
           if [ -n "$(git status -s)" ];then
