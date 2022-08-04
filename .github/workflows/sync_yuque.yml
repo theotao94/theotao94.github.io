@@ -46,7 +46,7 @@ jobs:
           cd ./src
           npm install 
           npm i -g yuque-hexo
-          DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN SECRET_ID=$QINIU_SECRET_ID SECRET_KEY=$QINIU_SECRET_KEY && yuque-hexo sync
+          DEBUG=common-bin YUQUE_TOKEN=$YUQUE_TOKEN SECRET_ID=$QINIU_SECRET_ID SECRET_KEY=$QINIU_SECRET_KEY yuque-hexo sync
 
           if [ -n "$(git status -s)" ];then
               echo "检查到有变动文件，准备提交"
