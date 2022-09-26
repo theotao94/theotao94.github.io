@@ -171,11 +171,11 @@
       "description": "",
       "creator_id": 131211,
       "public": 1,
-      "items_count": 2,
+      "items_count": 7,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2022-05-26T08:15:42.979Z",
-      "updated_at": "2022-05-26T08:15:43.000Z",
+      "content_updated_at": "2022-09-08T02:46:46.401Z",
+      "updated_at": "2022-09-08T02:46:46.000Z",
       "created_at": "2022-05-25T02:55:50.000Z",
       "namespace": "harmmer/vard70",
       "user": {
@@ -190,7 +190,7 @@
         "followers_count": 2,
         "following_count": 0,
         "created_at": "2018-05-30T03:08:56.000Z",
-        "updated_at": "2022-05-26T08:14:39.000Z",
+        "updated_at": "2022-09-26T12:24:15.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -208,7 +208,7 @@
       "followers_count": 2,
       "following_count": 0,
       "created_at": "2018-05-30T03:08:56.000Z",
-      "updated_at": "2022-05-26T08:14:39.000Z",
+      "updated_at": "2022-09-26T12:24:15.000Z",
       "_serializer": "v2.user"
     },
     "format": "lake",
@@ -226,14 +226,14 @@
     "content_updated_at": "2022-05-26T08:15:43.000Z",
     "deleted_at": null,
     "created_at": "2022-05-26T08:14:39.000Z",
-    "updated_at": "2022-05-26T08:15:43.000Z",
+    "updated_at": "2022-09-26T03:30:30.000Z",
     "published_at": "2022-05-26T08:15:43.000Z",
     "first_published_at": "2022-05-26T08:15:42.671Z",
     "word_count": 1564,
     "cover": "https://cdn.nlark.com/yuque/0/2021/png/131211/1617543355617-36b41ac6-42e4-41a8-9312-ff5505f89712.png",
     "description": "tags: python入门categories: [python,入门]背景：看到一篇python爬虫文章，想自己尝试一下，原本以为轻松的python之路却因为种种原因而变得不太快乐。( os: 😭 🐂 🐍 🍜 )Part 1: python版本之坑在我们的理解中一个语言的版本兼容应...",
     "custom_description": null,
-    "hits": 0,
+    "hits": 1,
     "_serializer": "v2.doc_detail"
   },
   {
