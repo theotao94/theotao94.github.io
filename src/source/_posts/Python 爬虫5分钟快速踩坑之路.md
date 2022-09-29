@@ -47,7 +47,7 @@ Python 为每个版本设计了不同的代码孤岛，社区一直拖拽这些�
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FuzrAPTlQvugefFlyKVa4jxzU6bH.png)
 
 挑了几个有代表性的
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617545882780-61cdc6a0-c255-4b14-8dca-bba53b61dece.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtLrybZOkCgpwfP1Kg3n25xoqgAn.png)
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FohL-vvUGuvPZYIuWUYi73Fzd1xJ.png)
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FnsbKT1n-N3488WpcBZAMpYt99Sj.png)
 
@@ -102,7 +102,7 @@ SyntaxError: invalid syntax
 
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsuLDYxnkh_2Y7VaA6SMuJsUDTey.png)
 屏蔽 python 环境细节，自带主流包
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617547102897-8ad038ea-d48c-441c-aed0-d4a67de0ceb0.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png)
 这就是我们需要的工具，赶快 mark 一下 📝 。
 大力推荐 Notbook 这个 IDE，类似于 Codepen 在线编辑 python，马上开始。
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png)
@@ -177,6 +177,6 @@ _tips：友情链接 notebook 代码提示 _[_安装指南_](https://www.jianshu
 - [x] 爬虫的概述和规矩
 - [x] python 的使用
 
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617547281487-e55a9915-fc4e-44a9-b444-8b4e53240ad4.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png)
 
 ##
