@@ -1,14 +1,13 @@
 ---
 title: Python 爬虫5分钟快速踩坑之路
-urlname: hwwlyf
-date: '2022-05-25 02:56:31 +0000'
-tags: []
-categories: []
----
-
----
-tags:[python]
-categories:[python]
+urlname: sa8fgx
+date: '2022-05-26 08:14:39 +0000'
+tags:
+  - python
+  - 入门
+categories:
+  - - python
+    - 入门
 ---
 
 _背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以为轻松的 python 之路却因为种种原因而变得不太快乐。_( os: 😭 🐂 🐍 🍜 )
@@ -45,7 +44,7 @@ Python 为每个版本设计了不同的代码孤岛，社区一直拖拽这些�
 在你想寻求社区的帮助时，很大可能只能获取到旧的代码。
 
 好奇的我，搜了一下两个版本的差异，看看有哪些区别
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617545717866-af444000-6303-40ff-9979-0ab7499bef5f.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FuzrAPTlQvugefFlyKVa4jxzU6bH.png)
 
 挑了几个有代表性的
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtLrybZOkCgpwfP1Kg3n25xoqgAn.png)
@@ -83,7 +82,7 @@ SyntaxError: invalid syntax
 # Part 3:寻求解决
 
 还没有开始写代码就遭受了环境之痛，心里默念一句 python 垃圾。
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617546507440-bf820956-3f7e-4203-a348-b3a958dead6b.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkGIEzgSO3jF75YVx_gFAC5XXY1F.png)
 不过我们的问题还是要解决，我猜测那么肯定会有一些工具帮助我们来解决这个环境之苦，在一番寻找下发现了一款 Anaconda 的软件。
 
 这款软件解决了几个问题
@@ -97,16 +96,16 @@ SyntaxError: invalid syntax
 [这里下载](https://www.anaconda.com/products/individual)
 
 这就是我们需要的解决方案
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617546806291-68bb4a95-a1f5-47fd-abe6-9c9b951c88c8.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkC31h2VdyqoqkgkXMYPDPSlUu58.png)
 
 可以对接主流 IDE
 
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsuLDYxnkh_2Y7VaA6SMuJsUDTey.png)
 屏蔽 python 环境细节，自带主流包
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617547102897-8ad038ea-d48c-441c-aed0-d4a67de0ceb0.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png)
 这就是我们需要的工具，赶快 mark 一下 📝 。
 大力推荐 Notbook 这个 IDE，类似于 Codepen 在线编辑 python，马上开始。
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617547281487-e55a9915-fc4e-44a9-b444-8b4e53240ad4.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png)
 开始爬虫 🐛 ！
 
 # Part 4:爬虫相关知识
