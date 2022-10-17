@@ -14,7 +14,7 @@ _背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以�
 
 # Part 1: python 版本之坑
 
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FvlvLUpaI33GuyAoC1iFRh7Rqsgy.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FrmrBlbLn8IHCH-U38ajUu9N7rPX.png)
 
 在我们的理解中一个语言的版本兼容应该都会是 **向后兼容 **的，可是 python3.x 版本却宛如一个渣男，
 居然与 2.x 版本
@@ -44,12 +44,12 @@ Python 为每个版本设计了不同的代码孤岛，社区一直拖拽这些�
 在你想寻求社区的帮助时，很大可能只能获取到旧的代码。
 
 好奇的我，搜了一下两个版本的差异，看看有哪些区别
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Fjs5qLeSaXWc-5IHta1w9jTXXfKL.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FuzrAPTlQvugefFlyKVa4jxzU6bH.png)
 
 挑了几个有代表性的
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Fo_Y49L__pAXmMBTEsS4Uo3QOGO2.png)
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsCYDQO2RW9aWHpcQH4Htwlqhq_1.png)
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtWojsl_RXKmKDxXoDf_VSFbXp4X.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtLrybZOkCgpwfP1Kg3n25xoqgAn.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FohL-vvUGuvPZYIuWUYi73Fzd1xJ.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FnsbKT1n-N3488WpcBZAMpYt99Sj.png)
 
 # Part 2: 安装太太太太麻烦了
 
@@ -72,7 +72,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FhfHu8w68N_NQk5jfBpgf7taRE9p.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FocyjzaQ92quDMkzj9zGinVIIgTR.png)
 
 社区为了弥补一下版本的差异带来的问题，做了点改动
 
@@ -82,7 +82,7 @@ SyntaxError: invalid syntax
 # Part 3:寻求解决
 
 还没有开始写代码就遭受了环境之痛，心里默念一句 python 垃圾。
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Fmdc883uRLp7IGe2R7PrMoe0_nut.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkGIEzgSO3jF75YVx_gFAC5XXY1F.png)
 不过我们的问题还是要解决，我猜测那么肯定会有一些工具帮助我们来解决这个环境之苦，在一番寻找下发现了一款 Anaconda 的软件。
 
 这款软件解决了几个问题
@@ -96,16 +96,16 @@ SyntaxError: invalid syntax
 [这里下载](https://www.anaconda.com/products/individual)
 
 这就是我们需要的解决方案
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Fmf9IXCUB7vkNaV7oRYsx59tAzyv.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkC31h2VdyqoqkgkXMYPDPSlUu58.png)
 
 可以对接主流 IDE
 
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FgO8CZMuJEBlh6HIhVoM09OaidZS.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsuLDYxnkh_2Y7VaA6SMuJsUDTey.png)
 屏蔽 python 环境细节，自带主流包
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Ftf2M70_0B6EqQv794iX9iUH2xlD.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png)
 这就是我们需要的工具，赶快 mark 一下 📝 。
 大力推荐 Notbook 这个 IDE，类似于 Codepen 在线编辑 python，马上开始。
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FvkK7LJXAZ1QJZsplgc35pLcgoxk.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png)
 开始爬虫 🐛 ！
 
 # Part 4:爬虫相关知识
@@ -119,7 +119,7 @@ SyntaxError: invalid syntax
 每个爬虫都是你的「分身」。就像孙悟空拔了一撮汗毛，吹出一堆猴子一样
 
 **爬虫的主要分布：**
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/Fh59z7TpN6sfL7rs5iFU0fGSaZVW.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsdnEvzhCMQbhgPcqALqfYiZwT0S.png)
 
 **爬虫基本步骤：**
 
@@ -140,7 +140,7 @@ Robots Exclusion Standard （网络爬虫排除标准）
 在网站根目录下的 robots.txt 文件
 
 **例如 jd 官网：**
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsPTr18ZmWBQkap67z9bI7h_xnER.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FhaBqFrLK_Bm66u1nwZO_INJnm3q.png)
 
 ### 4.3 爬虫的尺寸
 
@@ -156,7 +156,7 @@ Robots Exclusion Standard （网络爬虫排除标准）
 _网络运营者采取自动化手段访问收集网站数据，不得妨碍网站正常运行；此类行为严重影响网站运行，如自动化访问收集流量超过网站日均流量三分之一，网站要求停止自动化访问收集时，应当停止。_
 
 **来点刺激的？我能爬取 robots 协议限定的网页吗？**
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FmPPtHBdEKe1Rd00c4EHVvm0Uj7l.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FmpDYwITZyZGzOyVGbtwCekAINbM.png)
 政府网：[http://www.gov.cn/](http://www.gov.cn/)
 教育局：[http://www.moe.gov.cn/](http://www.moe.gov.cn/)
 
@@ -177,6 +177,6 @@ _tips：友情链接 notebook 代码提示 _[_安装指南_](https://www.jianshu
 - [x] 爬虫的概述和规矩
 - [x] python 的使用
 
-![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FjqrKUbCHCEqqTb7BSsxD8hKJs5w.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png)
 
 ##
