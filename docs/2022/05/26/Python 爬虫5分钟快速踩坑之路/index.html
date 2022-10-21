@@ -7,7 +7,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
 <meta property="article:published_time" content="2022-05-26T08:14:39.000Z">
-<meta property="article:modified_time" content="2022-10-20T21:27:57.352Z">
+<meta property="article:modified_time" content="2022-10-21T21:26:33.248Z">
 <meta property="article:author" content="Theo Tao">
 <meta property="article:tag" content="python">
 <meta property="article:tag" content="入门">
@@ -54,7 +54,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-10-20 21:27:57'
+  postUpdate: '2022-10-21 21:26:33'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -143,7 +143,7 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Theo Tao</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Python 爬虫5分钟快速踩坑之路</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-05-26T08:14:39.000Z" title="Created 2022-05-26 08:14:39">2022-05-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-10-20T21:27:57.352Z" title="Updated 2022-10-20 21:27:57">2022-10-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/python/">python</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/python/%E5%85%A5%E9%97%A8/">入门</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Python 爬虫5分钟快速踩坑之路"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><em>背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以为轻松的 python 之路却因为种种原因而变得不太快乐。</em>( os: 😭 🐂 🐍 🍜 )</p>
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Theo Tao</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Python 爬虫5分钟快速踩坑之路</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-05-26T08:14:39.000Z" title="Created 2022-05-26 08:14:39">2022-05-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-10-21T21:26:33.248Z" title="Updated 2022-10-21 21:26:33">2022-10-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/python/">python</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/python/%E5%85%A5%E9%97%A8/">入门</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Python 爬虫5分钟快速踩坑之路"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><em>背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以为轻松的 python 之路却因为种种原因而变得不太快乐。</em>( os: 😭 🐂 🐍 🍜 )</p>
 <h1 id="Part-1-python-版本之坑"><a href="#Part-1-python-版本之坑" class="headerlink" title="Part 1: python 版本之坑"></a>Part 1: python 版本之坑</h1><p><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FrmrBlbLn8IHCH-U38ajUu9N7rPX.png"></p>
 <p>在我们的理解中一个语言的版本兼容应该都会是 **向后兼容 **的，可是 python3.x 版本却宛如一个渣男，<br>居然与 2.x 版本</p>
 <p><strong>和平分手！ 👋</strong></p>
@@ -152,7 +152,7 @@
 <p>Python 为每个版本设计了不同的代码孤岛，社区一直拖拽这些旧版本，所以你最终也只能得到那些旧的、过时的 Python 代码，因为没有人<strong>愿意花时间将它导到最新版本上</strong>。</p>
 <p>在你想寻求社区的帮助时，很大可能只能获取到旧的代码。</p>
 <p>好奇的我，搜了一下两个版本的差异，看看有哪些区别<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FuzrAPTlQvugefFlyKVa4jxzU6bH.png"></p>
-<p>挑了几个有代表性的<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtLrybZOkCgpwfP1Kg3n25xoqgAn.png"><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FohL-vvUGuvPZYIuWUYi73Fzd1xJ.png"><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FnsbKT1n-N3488WpcBZAMpYt99Sj.png"></p>
+<p>挑了几个有代表性的<br><img src="https://cdn.nlark.com/yuque/0/2021/png/131211/1617545882780-61cdc6a0-c255-4b14-8dca-bba53b61dece.png"><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FohL-vvUGuvPZYIuWUYi73Fzd1xJ.png"><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FnsbKT1n-N3488WpcBZAMpYt99Sj.png"></p>
 <h1 id="Part-2-安装太太太太麻烦了"><a href="#Part-2-安装太太太太麻烦了" class="headerlink" title="Part 2: 安装太太太太麻烦了"></a>Part 2: 安装太太太太麻烦了</h1><p>安装一个 python 你可以使用 apt、yum、rpm 或者 brew 命令去安装，可是如果你不指定版本的话，可能你的电脑上会出现 N 个版本的 python</p>
 <p>Python2、Python2.6、Python3 和 Python3.5 ，这是我电脑的版本，前面两个是系统自带的，后面两个是我安装的，虽然版本不一样，但是他们使用的命令是一样的 python ，但是他们底层又是完全不一样的。</p>
 <p>所以切记一定要 <strong>指定安装版本！</strong></p>
@@ -160,10 +160,10 @@
 <p>node 有 npm 管理包，在 python 中则使用 pip（Pip Installs Packages）来管理包，但是由于系统上有许多版本的 Python，你必须记住使用正确版本的 pip。</p>
 <p>否则，’pip’可能会运行’pip2’而不是你需要的’pip3.7’。</p>
 <p>可以理解为 如果你想安装的库是 3.x 写的但是你的 pip 指定的是 2.x 的话，那么既有可能你在安装过程中出现<br>SyntaxError: invalid syntax<br>SyntaxError: invalid syntax<br>SyntaxError: invalid syntax<br>SyntaxError: invalid syntax<br>SyntaxError: invalid syntax</p>
-<p><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FocyjzaQ92quDMkzj9zGinVIIgTR.png"></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/png/131211/1617544955170-876a9683-606e-4e7e-91d3-aa7fc8011895.png"></p>
 <p>社区为了弥补一下版本的差异带来的问题，做了点改动</p>
 <p>3.x 对应的命令：<strong>python3</strong><br>3.x 对应的 pip：<strong>pip3</strong></p>
-<h1 id="Part-3-寻求解决"><a href="#Part-3-寻求解决" class="headerlink" title="Part 3:寻求解决"></a>Part 3:寻求解决</h1><p>还没有开始写代码就遭受了环境之痛，心里默念一句 python 垃圾。<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkGIEzgSO3jF75YVx_gFAC5XXY1F.png"><br>不过我们的问题还是要解决，我猜测那么肯定会有一些工具帮助我们来解决这个环境之苦，在一番寻找下发现了一款 Anaconda 的软件。</p>
+<h1 id="Part-3-寻求解决"><a href="#Part-3-寻求解决" class="headerlink" title="Part 3:寻求解决"></a>Part 3:寻求解决</h1><p>还没有开始写代码就遭受了环境之痛，心里默念一句 python 垃圾。<br><img src="https://cdn.nlark.com/yuque/0/2021/png/131211/1617546507440-bf820956-3f7e-4203-a348-b3a958dead6b.png"><br>不过我们的问题还是要解决，我猜测那么肯定会有一些工具帮助我们来解决这个环境之苦，在一番寻找下发现了一款 Anaconda 的软件。</p>
 <p>这款软件解决了几个问题</p>
 <ul>
 <li>环境管理</li>
@@ -175,7 +175,7 @@
 <p><a target="_blank" rel="noopener" href="https://www.anaconda.com/products/individual">这里下载</a></p>
 <p>这就是我们需要的解决方案<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkC31h2VdyqoqkgkXMYPDPSlUu58.png"></p>
 <p>可以对接主流 IDE</p>
-<p><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsuLDYxnkh_2Y7VaA6SMuJsUDTey.png"><br>屏蔽 python 环境细节，自带主流包<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png"><br>这就是我们需要的工具，赶快 mark 一下 📝 。<br>大力推荐 Notbook 这个 IDE，类似于 Codepen 在线编辑 python，马上开始。<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png"><br>开始爬虫 🐛 ！</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/png/131211/1617546949365-132cf9b4-b9fb-41bd-8e65-8847eae9498f.png"><br>屏蔽 python 环境细节，自带主流包<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png"><br>这就是我们需要的工具，赶快 mark 一下 📝 。<br>大力推荐 Notbook 这个 IDE，类似于 Codepen 在线编辑 python，马上开始。<br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FqxDxLcW4DAQ4CBSWkjnh6EWQTvg.png"><br>开始爬虫 🐛 ！</p>
 <h1 id="Part-4-爬虫相关知识"><a href="#Part-4-爬虫相关知识" class="headerlink" title="Part 4:爬虫相关知识"></a>Part 4:爬虫相关知识</h1><h3 id="4-1-爬虫的概述"><a href="#4-1-爬虫的概述" class="headerlink" title="4.1 爬虫的概述"></a>4.1 爬虫的概述</h3><p><strong>定义：</strong><br>网络爬虫是一个<strong>自动提取网页</strong>的程序，是<strong>搜索引擎</strong>的重要组成。</p>
 <p><strong>通俗的讲：</strong><br>每个爬虫都是你的「分身」。就像孙悟空拔了一撮汗毛，吹出一堆猴子一样</p>
 <p><strong>爬虫的主要分布：</strong><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsdnEvzhCMQbhgPcqALqfYiZwT0S.png"></p>
@@ -220,7 +220,7 @@
 </tbody></table>
 <p><strong>数据量的评估：</strong><br>在 2019 年 05 月 28 日国家网信办发布的《数据安全管理办法（征求意见稿）》中，拟通过行政法规的形式，对爬虫的使用进行限制：</p>
 <p><em>网络运营者采取自动化手段访问收集网站数据，不得妨碍网站正常运行；此类行为严重影响网站运行，如自动化访问收集流量超过网站日均流量三分之一，网站要求停止自动化访问收集时，应当停止。</em></p>
-<p><strong>来点刺激的？我能爬取 robots 协议限定的网页吗？</strong><br><img src="http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FmpDYwITZyZGzOyVGbtwCekAINbM.png"><br>政府网：<a target="_blank" rel="noopener" href="http://www.gov.cn/">http://www.gov.cn/</a><br>教育局：<a target="_blank" rel="noopener" href="http://www.moe.gov.cn/">http://www.moe.gov.cn/</a></p>
+<p><strong>来点刺激的？我能爬取 robots 协议限定的网页吗？</strong><br><img src="https://cdn.nlark.com/yuque/0/2021/png/131211/1617679691845-c9757f54-f0bf-47af-8a59-3c51f5bb6c08.png"><br>政府网：<a target="_blank" rel="noopener" href="http://www.gov.cn/">http://www.gov.cn/</a><br>教育局：<a target="_blank" rel="noopener" href="http://www.moe.gov.cn/">http://www.moe.gov.cn/</a></p>
 <p><em>tips：越界行动注意“尺寸”，只蹭蹭的话是没问题的</em></p>
 <h3 id="4-4-示例爬虫"><a href="#4-4-示例爬虫" class="headerlink" title="4.4 示例爬虫"></a>4.4 示例爬虫</h3><p>爬取太平洋汽车的内容<br><a target="_blank" rel="noopener" href="https://price.pcauto.com.cn/comment/sg2734/">https://price.pcauto.com.cn/comment/sg2734/</a></p>
 <p>_tips：友情链接 notebook 代码提示 _<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/2e8a6596139a"><em>安装指南</em></a></p>
