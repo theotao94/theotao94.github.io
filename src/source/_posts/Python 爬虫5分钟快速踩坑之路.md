@@ -47,7 +47,7 @@ Python 为每个版本设计了不同的代码孤岛，社区一直拖拽这些�
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FuzrAPTlQvugefFlyKVa4jxzU6bH.png)
 
 挑了几个有代表性的
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617545882780-61cdc6a0-c255-4b14-8dca-bba53b61dece.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FtLrybZOkCgpwfP1Kg3n25xoqgAn.png)
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FohL-vvUGuvPZYIuWUYi73Fzd1xJ.png)
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FnsbKT1n-N3488WpcBZAMpYt99Sj.png)
 
@@ -72,7 +72,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617544955170-876a9683-606e-4e7e-91d3-aa7fc8011895.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FocyjzaQ92quDMkzj9zGinVIIgTR.png)
 
 社区为了弥补一下版本的差异带来的问题，做了点改动
 
@@ -82,7 +82,7 @@ SyntaxError: invalid syntax
 # Part 3:寻求解决
 
 还没有开始写代码就遭受了环境之痛，心里默念一句 python 垃圾。
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617546507440-bf820956-3f7e-4203-a348-b3a958dead6b.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FkGIEzgSO3jF75YVx_gFAC5XXY1F.png)
 不过我们的问题还是要解决，我猜测那么肯定会有一些工具帮助我们来解决这个环境之苦，在一番寻找下发现了一款 Anaconda 的软件。
 
 这款软件解决了几个问题
@@ -100,7 +100,7 @@ SyntaxError: invalid syntax
 
 可以对接主流 IDE
 
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617546949365-132cf9b4-b9fb-41bd-8e65-8847eae9498f.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FsuLDYxnkh_2Y7VaA6SMuJsUDTey.png)
 屏蔽 python 环境细节，自带主流包
 ![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FlgkQl0Cgs76KK5mNEDW23tI776n.png)
 这就是我们需要的工具，赶快 mark 一下 📝 。
@@ -156,7 +156,7 @@ Robots Exclusion Standard （网络爬虫排除标准）
 _网络运营者采取自动化手段访问收集网站数据，不得妨碍网站正常运行；此类行为严重影响网站运行，如自动化访问收集流量超过网站日均流量三分之一，网站要求停止自动化访问收集时，应当停止。_
 
 **来点刺激的？我能爬取 robots 协议限定的网页吗？**
-![](https://cdn.nlark.com/yuque/0/2021/png/131211/1617679691845-c9757f54-f0bf-47af-8a59-3c51f5bb6c08.png)
+![](http://rfxd3bqqt.hn-bkt.clouddn.com/blog/FmpDYwITZyZGzOyVGbtwCekAINbM.png)
 政府网：[http://www.gov.cn/](http://www.gov.cn/)
 教育局：[http://www.moe.gov.cn/](http://www.moe.gov.cn/)
 
