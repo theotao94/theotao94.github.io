@@ -18,7 +18,7 @@ categories:
 
 - [python,入门]
 
-cover:![](https://sls-cloudfunction-ap-guangzhou-code-1259200871.cos.ap-guangzhou.myqcloud.com/blog/FrmrBlbLn8IHCH-U38ajUu9N7rPX.png)
+cover: ![](https://sls-cloudfunction-ap-guangzhou-code-1259200871.cos.ap-guangzhou.myqcloud.com/blog/FnL7vHXN_QemABFKrHA-MrDr764w.png)
 
 ---
 
