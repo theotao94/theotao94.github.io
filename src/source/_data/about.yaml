@@ -1,14 +1,14 @@
 - class_name: 关于页
-  subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
-  name: 陈志伟
-  description: 是一名 前端工程师、学生、独立开发者、博主
+  subtitle: 集中一点 登峰造极
+  avatarImg: https://avatars.githubusercontent.com/u/22534369?s…00&u=43e98035c70322556fe112ecb68170f6a924bb8b&v=4
+  name: 陶宏晖
+  description: 是一名 前端工程师、音乐人
   aboutsiteTips:
     tips: 追求
     title1: 源于
     title2: 热爱而去 感受
     word:
-      - 学习
+      - 音乐
       - 生活
       - 程序
       - 体验
@@ -20,7 +20,7 @@
     tips: 生涯
     title: 无限进步
     item:
-      - EDU,软件工程专业
+      - 软件工程专业
     img: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330e9bcc39cc.png
   statistic:
     link: /archives
@@ -28,30 +28,30 @@
     cover: https://img02.anzhiy.cn/adminuploads/1/2022/09/23/632d634f8376d.jpg
   map:
     title: 我现在住在
-    StrengthenTitle: 中国，长沙市
-    background: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e6f48981d8.jpg
-    backgroundDark: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
+    StrengthenTitle: 中国，深圳市
+    background: https://www.google.com/maps/vt/data=HEw-zU1xOzxCdSdrrI4sZWjH9Nt1CDUE5pnx0kzjcZmrBBF-0ktICrNLbVZsTpZOAT82YTdbdr2JAV5WDFa40uHnCTdU_9hw1h_xfO2371z_MXpqHFSiuAyt5N0zXY3hYmK6rmJUii0Rfp-yaYPDVpxTM50eoH6yafHj3t1RVn6ZimJ6a40DIU2I0EZV6KM3GE7HwuJk_ImT3HvGNoF7zY4LKPlGVmVKRS8ZQIcW_daF8uoVKUY3J1H2IUFQPQ-x_R0
+    backgroundDark: https://www.google.com/maps/vt/data=HEw-zU1xOzxCdSdrrI4sZWjH9Nt1CDUE5pnx0kzjcZmrBBF-0ktICrNLbVZsTpZOAT82YTdbdr2JAV5WDFa40uHnCTdU_9hw1h_xfO2371z_MXpqHFSiuAyt5N0zXY3hYmK6rmJUii0Rfp-yaYPDVpxTM50eoH6yafHj3t1RVn6ZimJ6a40DIU2I0EZV6KM3GE7HwuJk_ImT3HvGNoF7zY4LKPlGVmVKRS8ZQIcW_daF8uoVKUY3J1H2IUFQPQ-x_R0
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2002
-    selfInfoTips2: 湖南信息学院
-    selfInfoContent2: 软件工程
-    selfInfoTips3: 现在职业
-    selfInfoContent3: 大三学生👨‍🎓
+    selfInfoContentYear: 1994
+    selfInfoTips2: 现在职业
+    selfInfoContent2: 前端工程师
+    selfInfoTips3: 日常职业
+    selfInfoContent3: 喜欢打球的音乐人
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e9643611ec.jpg
+    photo_url:  https://avatars.githubusercontent.com/u/22534369?s…00&u=43e98035c70322556fe112ecb68170f6a924bb8b&v=4
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 集中一点，
+    maxim_bottom: 登峰造极
   buff:
     buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_top: 我们的目标是称霸全国🏀
+    buff_bottom: 做一个翻唱，把邻居唱翻
   game:
     game_tips: 爱好游戏
     game_title: 原神
@@ -83,56 +83,12 @@
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
-    music_title: 许嵩、民谣、华语流行
-    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_title: 各大榜单热门歌曲，90后小曲库
+    music_bg: https://ngbjimg.xy599.com/147533752462d2104593fb52.17792234.png
     music_link: /music
   reward_list:
-    - name: 海阔蓝
+    - name: 牛牛
       amount: 8.8
       datatime: 2023-03-28
-    - name: LK66
-      amount: 66.6
-      datatime: 2023-03-24
-    - name: 张时貳
-      amount: 6.6
-      datatime: 2023-01-22
-    - name: ZeroAf
-      amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
-      datatime: 2022-12-14
-    - name: 刀中日月长
-      amount: 10
-      datatime: 2022-11-16
-    - name: 鹿啵包
-      amount: 10
-      datatime: 2022-11-08
-    - name: 疾速k
-      amount: 50
-      datatime: 2022-09-20
-    - name: 伴舟先生大霖子
-      amount: 4.03
-      datatime: 2022-10-27
-      suffix: 贝壳
-    - name: Magica_0x0
-      amount: 3.36
-      datatime: 2022-10-07
-      suffix: 贝壳
-    - name: 名字就是要短像这样
-      amount: 3.36
-      datatime: 2022-08-25
-      suffix: 贝壳
-    - name: Leviathan520
-      amount: 1.34
-      datatime: 2022-08-23
-      suffix: 贝壳
-    - name: 托马斯
-      amount: 10
-      datatime: 2022-08-19
-    - name: 哇是猫猫欸
-      amount: 1.34
-      datatime: 2022-08-19
-      suffix: 贝壳
 
   extra: false
