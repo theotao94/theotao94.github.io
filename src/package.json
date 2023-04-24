@@ -23,10 +23,10 @@
     "onlyPublished": false,
     "imgCdn": {
       "enabled": true,
-      "imageBed": "qiniu",
-      "host": "http://rfxd3bqqt.hn-bkt.clouddn.com",
-      "bucket": "blog-theo",
-      "region": "Zone_z2",
+      "imageBed": "cos",
+      "host": "",
+      "bucket": "sls-cloudfunction-ap-guangzhou-code-1259200871",
+      "region": "ap-guangzhou",
       "prefixKey": "blog"
     }
   },
