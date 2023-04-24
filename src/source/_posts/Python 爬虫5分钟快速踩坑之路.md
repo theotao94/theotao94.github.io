@@ -2,12 +2,24 @@
 title: Python 爬虫5分钟快速踩坑之路
 urlname: sa8fgx
 date: '2022-05-26 08:14:39 +0000'
-tags:
-  - python
-  - 入门
-categories:
-  - - python
-    - 入门
+tags: []
+categories: []
+---
+
+---
+
+tags: 
+
+- python
+- 入门
+
+
+categories: 
+
+- [python,入门]
+
+cover:![](https://sls-cloudfunction-ap-guangzhou-code-1259200871.cos.ap-guangzhou.myqcloud.com/blog/FrmrBlbLn8IHCH-U38ajUu9N7rPX.png)
+
 ---
 
 _背景：看到一篇 python 爬虫文章，想自己尝试一下，原本以为轻松的 python 之路却因为种种原因而变得不太快乐。_( os: 😭 🐂 🐍 🍜 )

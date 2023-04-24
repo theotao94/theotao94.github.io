@@ -2,13 +2,25 @@
 title: 语雀 + GitAction + hexo 自动发布，省心写博客
 urlname: sxec1s
 date: '2022-05-26 07:44:19 +0000'
-tags:
-  - 工具
-  - GitAction
-  - Hexo
-categories:
-  - - 工具
-    - hexo
+tags: []
+categories: []
+---
+
+---
+
+tags: 
+
+- 工具
+- GitAction
+- Hexo
+
+
+categories: 
+
+- [工具,hexo]
+
+cover:[https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*RNUwSLLYRhMAAAAAAAAAAAAAARQnAQ](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*RNUwSLLYRhMAAAAAAAAAAAAAARQnAQ)
+
 ---
 
 GitAction 如何使用
